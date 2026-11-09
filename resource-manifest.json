@@ -1,0 +1,162 @@
+{
+  "resource_version": "1.0.0",
+  "book_edition": "1.0",
+  "title": "Zuverlässige Multi-Agenten-Workflows mit Herdr",
+  "language": "de-DE",
+  "rights_authority": "Happy eBook ist Rechteinhaber des Buchs und gestattet dieses Begleitpaket.",
+  "license": "Keine pauschale Open-Source-Lizenz erteilt. Das Paket wird als Begleitmaterial zum Buch bereitgestellt.",
+  "files": {
+    ".gitignore": {
+      "bytes": 40,
+      "sha256": "26ac80a95e01af54e4519059af108a562e146c6575072872ec91e145591c2a1c"
+    },
+    "CHANGELOG.md": {
+      "bytes": 227,
+      "sha256": "3b3ff25cf88f3aecaab05e5dd06afaa3be4657845a412262d1984cb638fa3cef"
+    },
+    "README.md": {
+      "bytes": 1311,
+      "sha256": "7ae13c7478b7537c9b21927b27c406aaa1c96b3bd1c1633df82988f39cbf4157"
+    },
+    "examples/README.md": {
+      "bytes": 2036,
+      "sha256": "6b4c2da2b4844146cbc00bc7ffee0e3079a0cb0f7db87eb0e7bcf9f68269956b"
+    },
+    "examples/__init__.py": {
+      "bytes": 88,
+      "sha256": "8edaa072e4eeffbb63766e0b2b6e10ca2b25be31279e45864b21ab7d8499c01c"
+    },
+    "examples/calculator.py": {
+      "bytes": 694,
+      "sha256": "b249c1e77dfbd631517dfb4a81c36aec5f9782a23fea5b8a8e6dcbbcbab05d17"
+    },
+    "examples/grades.py": {
+      "bytes": 2287,
+      "sha256": "9e2f50b0543c47c463f5821f1c95e5e40a435f6cbf36763a51b5fa0a326ec498"
+    },
+    "examples/handoff.py": {
+      "bytes": 1662,
+      "sha256": "ef49a389c6ee5615683bb4529d0465baee08a64a8c605f621efd964f37491956"
+    },
+    "examples/pipeline.py": {
+      "bytes": 2420,
+      "sha256": "a1041f23c9cba9c076dbd523ce918093167b5ae5748195fd9231168d6a918e3d"
+    },
+    "examples/prompts/backend.md": {
+      "bytes": 452,
+      "sha256": "557414feecccd4c18ae7341a36fdae6da3c984e46edbff2a2fba244272880661"
+    },
+    "examples/prompts/database.md": {
+      "bytes": 494,
+      "sha256": "b3a29175d650911f44bd8acae4c4c6b178fc7e247e6868b193eda2d8fbbc0da0"
+    },
+    "examples/prompts/developer.md": {
+      "bytes": 832,
+      "sha256": "1ac16defb02abe6e1a275c70d8740f88d7040b4f5d7e265f37fe4d06dc7668e4"
+    },
+    "examples/prompts/fact-checker.md": {
+      "bytes": 438,
+      "sha256": "ef01f4526092ffd015f0911c9b11c9c0f6a42017328f9868ac7bd1b712a125f1"
+    },
+    "examples/prompts/frontend.md": {
+      "bytes": 456,
+      "sha256": "36eb2912656a900c76cb57d5d227b5e58c623d1c2869b0d90dc1eb99dc2c29c6"
+    },
+    "examples/prompts/grades-developer.md": {
+      "bytes": 1342,
+      "sha256": "33dc8be66716192fb7cd76480c71a62916ae22581ae6e35412d1e16d7582b6fd"
+    },
+    "examples/prompts/grades-qa.md": {
+      "bytes": 1106,
+      "sha256": "6fc2e713dee153a33389aa2e1093a23a6f5fc6c878a858eff7ed9e2f93da3e9c"
+    },
+    "examples/prompts/manager.md": {
+      "bytes": 931,
+      "sha256": "91df1b80fa4aa03265843a68bc1a2ad2c7824e65c2c47890ec1bb060bb0b0ca6"
+    },
+    "examples/prompts/qa.md": {
+      "bytes": 430,
+      "sha256": "419b35d0f0aad17a4c1ac9bf456dfe80f526c8a85a458d227b3b01d686bb889e"
+    },
+    "examples/prompts/receipt-smoke.md": {
+      "bytes": 631,
+      "sha256": "4f6d369d1a27cc293edcd9615fc404c318bc29aeb107d810f48fee6a7da9f63d"
+    },
+    "examples/prompts/researcher.md": {
+      "bytes": 648,
+      "sha256": "ff27ca0bb880c8f98ea8e8029fa4e5786c22c436f75a3402188746cc1a089d13"
+    },
+    "examples/prompts/reviewer-a.md": {
+      "bytes": 741,
+      "sha256": "934840f9b70bb257dcac3f6ef630ca83d4d2ca26e8f2a090fd786017d2f9c22d"
+    },
+    "examples/prompts/reviewer-b.md": {
+      "bytes": 774,
+      "sha256": "cd6f82b7958b83e115d97f470f596793ace1229d913a0681d2dd6fed5123c1c8"
+    },
+    "examples/queue.py": {
+      "bytes": 5741,
+      "sha256": "86763aaffb151899caefcddae1b58d32a48831ed62db8022e4d92a39e58addcd"
+    },
+    "examples/research-evidence.json": {
+      "bytes": 2826,
+      "sha256": "9cc268ee39f5417446b20028e91ecbef1b021834fe394d5349365341ab764623"
+    },
+    "examples/research.py": {
+      "bytes": 2886,
+      "sha256": "7ef168f39ef4d786ae660a7b5c61b4c5a0b51ba94532405bb79f8860e6fc3860"
+    },
+    "examples/task_manager/__init__.py": {
+      "bytes": 67,
+      "sha256": "348f03a9b4848c0120b6fec9648b32557f6b6c75fdd743e3f3f9f14e02f7272f"
+    },
+    "examples/task_manager/db.py": {
+      "bytes": 1964,
+      "sha256": "c72fb5b4f11d8fb0009151edc0cfc5db8c2f0dfdd53d1b910b3670ccd9e8f6c1"
+    },
+    "examples/task_manager/main.py": {
+      "bytes": 2374,
+      "sha256": "f26ce0c5fd07fad28661f351600f5748c54141740ebc65fff72ff3844017fbb7"
+    },
+    "examples/task_manager/static/app.js": {
+      "bytes": 2346,
+      "sha256": "3c1716e153f54019a5b6654aeea31a0cfc8322f0f9a53b153f2a730a9fbd2e18"
+    },
+    "examples/task_manager/static/index.html": {
+      "bytes": 649,
+      "sha256": "38270edd270af5e04d655a9f1954d8fe576dd95dcc2a5d0f024a68529ec72c13"
+    },
+    "examples/task_manager/static/style.css": {
+      "bytes": 658,
+      "sha256": "db5deebc566223289a597ef4aac2275004b787ee6ab842cd54e3876265c9c819"
+    },
+    "requirements.txt": {
+      "bytes": 61,
+      "sha256": "a45dd04a2d8a44160508ffc731ea77102ea2e861535fa92985c2a72b1475c835"
+    },
+    "scripts/make_handoff.py": {
+      "bytes": 677,
+      "sha256": "b60b6918ef0eb048d29b44144342bae69e8be2cf44fd797169c44da5422f3368"
+    },
+    "scripts/probe_herdr.py": {
+      "bytes": 6449,
+      "sha256": "dfadd59e7094dc502f5d1a53fcf36b5fc0df9e86367e10493b710c122abf6489"
+    },
+    "scripts/team.py": {
+      "bytes": 2639,
+      "sha256": "0d482843b8882a1f4a45229e1b68dbfdf0997f6307734a77b593b3f01f24f161"
+    },
+    "tests/test_api.py": {
+      "bytes": 2611,
+      "sha256": "1a1ca8a96f2fdb1adbc00e8f031f9e7c8b9339b45c058f93a4fd6691040f0649"
+    },
+    "tests/test_contracts.py": {
+      "bytes": 5682,
+      "sha256": "bc9efe1956e6daedad54a598ec41e19668455630e78d3954928e3df60ae47f72"
+    },
+    "tests/test_queue_concurrency.py": {
+      "bytes": 579,
+      "sha256": "bf949e76e4b9769caa17ccaabe9a30d89b248bf21d32b00e9cbe00583a0c5e16"
+    }
+  }
+}

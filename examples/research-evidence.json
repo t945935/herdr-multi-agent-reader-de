@@ -1,0 +1,97 @@
+{
+  "question": "Wie wählt man lokale LLMs und Multi-Agenten-Programmierumgebungen aus und ordnet ihre Ebenen?",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Herdr-Agentenautomatisierung",
+      "url": "https://herdr.dev/tui/docs/agent-automation/",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    },
+    {
+      "id": "S2",
+      "title": "Herdr-CLI-Referenz",
+      "url": "https://herdr.dev/tui/docs/cli-reference/",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    },
+    {
+      "id": "S3",
+      "title": "Ollama-API-Einführung",
+      "url": "https://docs.ollama.com/api/introduction",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    },
+    {
+      "id": "S4",
+      "title": "llama.cpp HTTP Server",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    },
+    {
+      "id": "S5",
+      "title": "Codex CLI",
+      "url": "https://developers.openai.com/codex/cli/",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Eine Warteoperation bestätigt einen Lebenszyklusstatus; das Ergebnis benötigt dennoch Abnahmeprüfungen",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S1",
+          "quote": "It does not track individual turns."
+        }
+      ]
+    },
+    {
+      "text": "pane wait-output eignet sich für normale Prozessausgabe; agent wait für Agenten",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S2",
+          "quote": "Use pane wait-output for normal commands and servers. Use agent wait for coding agents."
+        }
+      ]
+    },
+    {
+      "text": "Ollama bietet einen lokalen Inferenzendpunkt und unterstützt auch die Cloud-Nutzung",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S3",
+          "quote": "Use Ollama's API to build applications with cloud or local models."
+        }
+      ]
+    },
+    {
+      "text": "Der llama.cpp-Server stellt Modell-REST-APIs und eine Weboberfläche bereit",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S4",
+          "quote": "Set of LLM REST APIs and a web UI to interact with llama.cpp."
+        }
+      ]
+    },
+    {
+      "text": "Eine Programmier-CLI kann Code untersuchen und ändern sowie Befehle im Terminal ausführen",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S5",
+          "quote": "Inspect code, make changes, run commands, and automate repeatable work without leaving your terminal."
+        }
+      ]
+    },
+    {
+      "text": "Mehr Agenten machen die Recherche mit lokalen LLMs zwangsläufig genauer",
+      "status": "uncertain",
+      "evidence": []
+    }
+  ]
+}
